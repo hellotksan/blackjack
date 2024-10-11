@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+.gameboard {
+  background-color: green;
+  width: 800px;
+  height: 650px;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  width: 100px;
+}
+
+.enemy0 {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  display: none;
+}
+
+.enemy1 {
+  position: absolute;
+  left: 175px;
+  top: 50px;
+  display: none;
+}
+
+.enemy2 {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+  display: none;
+}
+
+.enemy3 {
+  position: absolute;
+  left: 325px;
+  top: 50px;
+  display: none;
+}
+
+.enemy4 {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+  display: none;
+}
+
+.enemy5 {
+  position: absolute;
+  left: 475px;
+  top: 50px;
+  display: none;
+}
+
+.enemy6 {
+  position: absolute;
+  left: 550px;
+  top: 50px;
+  display: none;
+}
+
+.my0 {
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  display: none;
+}
+
+.my1 {
+  position: absolute;
+  left: 175px;
+  top: 450px;
+  display: none;
+}
+
+.my2 {
+  position: absolute;
+  left: 250px;
+  top: 450px;
+  display: none;
+}
+
+.my3 {
+  position: absolute;
+  left: 325px;
+  top: 450px;
+  display: none;
+}
+
+.my4 {
+  position: absolute;
+  left: 400px;
+  top: 450px;
+  display: none;
+}
+
+.my5 {
+  position: absolute;
+  left: 475px;
+  top: 450px;
+  display: none;
+}
+
+.my6 {
+  position: absolute;
+  left: 550px;
+  top: 450px;
+  display: none;
+}
+
+.mountain {
+  position: absolute;
+  left: 550px;
+  top: 250px;
+}
+
+.dust {
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  display: none;
+}
+
+.startButton {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  left: 250px;
+  top: 300px;
+}
+
+.finalButton {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  left: 400px;
+  top: 300px;
+}
+
+.enemyTotal {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.enemyCardList {
+  position: absolute;
+  left: 200px;
+  top: 210px;
+  color: #fff;
+}
+
+.myTotal {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.myCardList {
+  position: absolute;
+  left: 200px;
+  top: 410px;
+  color: #fff;
+}
+
+.enemyResult {
+  position: absolute;
+  left: 150px;
+  top: 60px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 5px 5px 3px #333;
+  display: none;
+}
+
+.myResult {
+  text-shadow: 10px 5px 20px 0px black;
+  position: absolute;
+  left: 150px;
+  top: 470px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 5px 5px 3px #333;
+  display: none;
+}
+
+.msg {
+  width: 800px;
+  background-color: #66ff66;
+  margin: 0 auto;
+}

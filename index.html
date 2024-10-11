@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <section class="gameboard">
+      <img src="images/c01.png" alt="" class="card enemy0" />
+      <img src="images/c01.png" alt="" class="card enemy1" />
+      <img src="images/c01.png" alt="" class="card enemy2" />
+      <img src="images/c01.png" alt="" class="card enemy3" />
+      <img src="images/c01.png" alt="" class="card enemy4" />
+      <img src="images/c01.png" alt="" class="card enemy5" />
+      <img src="images/c01.png" alt="" class="card enemy6" />
+      <img src="images/c01.png" alt="" class="card my0" />
+      <img src="images/c01.png" alt="" class="card my1" />
+      <img src="images/c01.png" alt="" class="card my2" />
+      <img src="images/c01.png" alt="" class="card my3" />
+      <img src="images/c01.png" alt="" class="card my4" />
+      <img src="images/c01.png" alt="" class="card my5" />
+      <img src="images/c01.png" alt="" class="card my6" />
+      <img src="images/z01.png" alt="" class="card mountain" onclick="draw()" />
+      <img src="images/z01.png" alt="" class="card dust" />
+      <input
+        type="button"
+        value="ゲームスタート"
+        class="startButton"
+        onclick="start()"
+      />
+      <input type="button" value="判定" class="finalButton" onclick="judge()" />
+      <div class="enemyTotal"></div>
+      <div class="enemyCardList"></div>
+      <div class="myTotal"></div>
+      <div class="myCardList"></div>
+      <div class="enemyResult">Win</div>
+      <div class="myResult">Win</div>
+    </section>
+    <div class="msg">カードを引く場合は、中央のカードをクリック</div>
+    <script type="text/javascript" src="index.js" ></script>
+  </body>
+</html>
